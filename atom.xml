@@ -2,12 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Jason&#39;s LearningCenter</title>
   
-  
+  <subtitle>Jason&#39;s LearningCenter</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
   <updated>2018-07-09T13:35:43.359Z</updated>
   <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Jason.Zhang</name>
+    
+  </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
