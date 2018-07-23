@@ -3,6 +3,27 @@
   
     
     <entry>
+      <title>test</title>
+      <link href="/2018/07/23/test/"/>
+      <url>/2018/07/23/test/</url>
+      <content type="html"><![CDATA[]]></content>
+      
+      <categories>
+          
+          <category> test </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2018/07/09/hello-world/"/>
       <url>/2018/07/09/hello-world/</url>
