@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Spring," />
 
 
 
@@ -79,17 +79,21 @@
 
 
 
-<meta name="description" content="learningcenter">
-<meta name="keywords" content="learningcenter">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Jason的博客">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="Spring注解驱动[TOC] 组件注册创建并启动支持注解驱动的ioc容器通过xml配置的方式，我们要创建和启动ioc容器是通过ClassPathXmlApplicationContext类，而如果要支持注解驱动的ioc容器，我们需要使用AnnotationConfigApplicationContext类  AnnotationConfigApplicationContext的构造参数可以指定需">
+<meta name="keywords" content="Spring">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Spring注解驱动">
+<meta property="og:url" content="http://yoursite.com/2018/07/23/Spring注解驱动/index.html">
 <meta property="og:site_name" content="Jason的博客">
-<meta property="og:description" content="learningcenter">
+<meta property="og:description" content="Spring注解驱动[TOC] 组件注册创建并启动支持注解驱动的ioc容器通过xml配置的方式，我们要创建和启动ioc容器是通过ClassPathXmlApplicationContext类，而如果要支持注解驱动的ioc容器，我们需要使用AnnotationConfigApplicationContext类  AnnotationConfigApplicationContext的构造参数可以指定需">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://images0.cnblogs.com/i/580631/201405/181453414212066.png">
+<meta property="og:image" content="https://images0.cnblogs.com/i/580631/201405/181454040628981.png">
+<meta property="og:updated_time" content="2018-07-23T02:48:36.339Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Jason的博客">
-<meta name="twitter:description" content="learningcenter">
+<meta name="twitter:title" content="Spring注解驱动">
+<meta name="twitter:description" content="Spring注解驱动[TOC] 组件注册创建并启动支持注解驱动的ioc容器通过xml配置的方式，我们要创建和启动ioc容器是通过ClassPathXmlApplicationContext类，而如果要支持注解驱动的ioc容器，我们需要使用AnnotationConfigApplicationContext类  AnnotationConfigApplicationContext的构造参数可以指定需">
+<meta name="twitter:image" content="https://images0.cnblogs.com/i/580631/201405/181453414212066.png">
 
 
 
@@ -119,13 +123,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/07/23/Spring注解驱动/"/>
 
 
 
 
 
-  <title>Jason的博客</title>
+  <title>Spring注解驱动 | Jason的博客</title>
   
 
 
@@ -144,8 +148,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -258,9 +261,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -290,9 +293,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/07/23/Spring注解驱动/" itemprop="url">Spring注解驱动</a></h1>
+          <h1 class="post-title" itemprop="name headline">Spring注解驱动</h1>
         
 
         <div class="post-meta">
@@ -364,9 +365,7 @@
       
 
       
-        
-          
-            <h1 id="Spring注解驱动"><a href="#Spring注解驱动" class="headerlink" title="Spring注解驱动"></a>Spring注解驱动</h1><p>[TOC]</p>
+        <h1 id="Spring注解驱动"><a href="#Spring注解驱动" class="headerlink" title="Spring注解驱动"></a>Spring注解驱动</h1><p>[TOC]</p>
 <h2 id="组件注册"><a href="#组件注册" class="headerlink" title="组件注册"></a>组件注册</h2><h3 id="创建并启动支持注解驱动的ioc容器"><a href="#创建并启动支持注解驱动的ioc容器" class="headerlink" title="创建并启动支持注解驱动的ioc容器"></a>创建并启动支持注解驱动的ioc容器</h3><p>通过xml配置的方式，我们要创建和启动ioc容器是通过ClassPathXmlApplicationContext类，而如果要支持注解驱动的ioc容器，我们需要使用AnnotationConfigApplicationContext类</p>
 <p> AnnotationConfigApplicationContext的构造参数可以指定需要装配的标注了Spring注解的类。</p>
 <p> 通常情况下我们使用一个统一的配置类就可以了，这个统一的配置类标注了很多的Spring支持的注解</p>
@@ -611,8 +610,6 @@
 <h3 id="Servlet3-0异步请求"><a href="#Servlet3-0异步请求" class="headerlink" title="Servlet3.0异步请求"></a>Servlet3.0异步请求</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line">@WebServlet(value = &quot;/asyn&quot;,asyncSupported = true)</span><br><span class="line">public class AsynServlet extends HttpServlet &#123;</span><br><span class="line">    @Override</span><br><span class="line">    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException &#123;</span><br><span class="line"></span><br><span class="line">        System.out.println(&quot;主线程&quot;+Thread.currentThread().getName()+&quot;开始&quot;);</span><br><span class="line">       //1.支持异步处理asyncSupported = true</span><br><span class="line"></span><br><span class="line">       //2.开启异步处理模式</span><br><span class="line">        AsyncContext asyncContext =  req.startAsync();</span><br><span class="line">       //3.业务逻辑进行异步处理，开始异步处理</span><br><span class="line">        asyncContext.start(()-&gt;&#123;</span><br><span class="line">            System.out.println(&quot;---&gt;&quot;+Thread.currentThread().getName());</span><br><span class="line">            try &#123;</span><br><span class="line">                System.out.println(&quot;子线程&quot;+Thread.currentThread().getName()+&quot;开始&quot;);</span><br><span class="line">                Thread.sleep(1000);</span><br><span class="line">                asyncContext.complete(); // 注意：一旦异步处理逻辑完成，要调用complete方法，这样才能响应数据给客户端</span><br><span class="line"></span><br><span class="line">                //获取响应并写数据到客户端</span><br><span class="line">                asyncContext.getResponse().getWriter().write(&quot;hello world!&quot;);</span><br><span class="line">                System.out.println(&quot;子线程&quot;+Thread.currentThread().getName()+&quot;结束&quot;);</span><br><span class="line">            &#125; catch (InterruptedException e) &#123;</span><br><span class="line">                e.printStackTrace();</span><br><span class="line">            &#125; catch (IOException e) &#123;</span><br><span class="line">                e.printStackTrace();</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;);</span><br><span class="line">        System.out.println(&quot;主线程&quot;+Thread.currentThread().getName()+&quot;结束&quot;);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h3 id="springmvc-异步请求的两种方式"><a href="#springmvc-异步请求的两种方式" class="headerlink" title="springmvc-异步请求的两种方式"></a>springmvc-异步请求的两种方式</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br></pre></td><td class="code"><pre><span class="line">@Controller</span><br><span class="line">public class AsynController &#123;</span><br><span class="line"></span><br><span class="line">    /**</span><br><span class="line">     * 1.如果控制器返回的是Callable对象</span><br><span class="line">     * 2.springmvc就会启动一个异步处理并且将返回的Callable对象提交给一个叫做TaskExecutor的任务执行器，并使用一个隔离的线程进行处理</span><br><span class="line">     * 3.DispatcherServlet和所有的Filter退出Servlet容器的线程，但是这个响应依然打开</span><br><span class="line">     * 4.Callable返回结果，SpringMVc将请求重新派发给容器，恢复之前的处理</span><br><span class="line">     * 5.根据Callable返回的结果，springmvc继续进行视图渲染流程等。</span><br><span class="line">     *</span><br><span class="line">     * @return</span><br><span class="line">     */</span><br><span class="line">    @ResponseBody</span><br><span class="line">    @RequestMapping(&quot;/asyn01&quot;)</span><br><span class="line">    public Callable&lt;String&gt; asyn01() &#123;</span><br><span class="line"></span><br><span class="line">        System.out.println(&quot;主线程&quot; + Thread.currentThread().getName() + &quot;开始&quot;);</span><br><span class="line">        Callable&lt;String&gt; callable = () -&gt; &#123;</span><br><span class="line"></span><br><span class="line">            System.out.println(&quot;子线程&quot; + Thread.currentThread().getName() + &quot;结束&quot;);</span><br><span class="line">            TimeUnit.SECONDS.sleep(2);</span><br><span class="line">            System.out.println(&quot;子线程&quot; + Thread.currentThread().getName() + &quot;结束&quot;);</span><br><span class="line"></span><br><span class="line">            return &quot;Callable&lt;String&gt; asyn01&quot;;</span><br><span class="line">        &#125;;</span><br><span class="line">        System.out.println(&quot;主线程&quot; + Thread.currentThread().getName() + &quot;结束&quot;);</span><br><span class="line">        return callable;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    /**</span><br><span class="line">     * 下面是采用DeferredResult的方式实现异步</span><br><span class="line">     *</span><br><span class="line">     * sender：是请求的主线程，直接返回DeferredResult</span><br><span class="line">     *</span><br><span class="line">     * receiver：是后台的子线程，子线程将处理的结果放入DeferredResult，那么主线程就可以接收到对应的数据</span><br><span class="line">     *</span><br><span class="line">     *</span><br><span class="line">     * @return</span><br><span class="line">     */</span><br><span class="line"></span><br><span class="line">    @RequestMapping(&quot;/creareOrder&quot;)</span><br><span class="line">    @ResponseBody</span><br><span class="line">    public DeferredResult&lt;Object&gt; sender()&#123;</span><br><span class="line">        DeferredResult&lt;Object&gt; deferredResult = new DeferredResult(3000L,&quot;create failure!&quot;);</span><br><span class="line">        DeferredResultQueue.save(deferredResult);</span><br><span class="line">        return deferredResult;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    @RequestMapping(&quot;/receive&quot;)</span><br><span class="line">    @ResponseBody</span><br><span class="line">    public String  receiver()&#123;</span><br><span class="line">        //创建订单</span><br><span class="line"></span><br><span class="line">        String orderId=UUID.randomUUID().toString();</span><br><span class="line"></span><br><span class="line">        DeferredResult&lt;Object&gt; deferredResult = DeferredResultQueue.get();</span><br><span class="line">        deferredResult.setResult(orderId); // 消息处理者一旦将处理完毕的数据放到deferredResult中，那么发送者就可以接收到对应的数据</span><br><span class="line">        return &quot;success===&gt;&quot;+orderId;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-          
-        
       
     </div>
     
@@ -627,283 +624,36 @@
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/07/23/test/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason.Zhang">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason的博客">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/07/23/test/" itemprop="url">test</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-23T10:43:05+08:00">
-                2018-07-23
-              </time>
-            
-
-            
-
-            
-          </span>
-
+        <div class="post-tags">
           
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/test/" itemprop="url" rel="index">
-                    <span itemprop="name">test</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
+            <a href="/tags/Spring/" rel="tag"># Spring</a>
           
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
+      
 
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
+      
       
       
 
       
-        
-          
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/07/09/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason.Zhang">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason的博客">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/07/09/hello-world/" itemprop="url">Hello World</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+              <a href="/2018/07/23/test/" rel="next" title="test">
+                <i class="fa fa-chevron-left"></i> test
+              </a>
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-09T21:35:43+08:00">
-                2018-07-09
-              </time>
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -913,10 +663,11 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -924,6 +675,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -944,8 +699,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -1005,6 +769,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Spring注解驱动"><span class="nav-number">1.</span> <span class="nav-text">Spring注解驱动</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#组件注册"><span class="nav-number">1.1.</span> <span class="nav-text">组件注册</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#创建并启动支持注解驱动的ioc容器"><span class="nav-number">1.1.1.</span> <span class="nav-text">创建并启动支持注解驱动的ioc容器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Configuration-amp-Bean给容器中注册组件"><span class="nav-number">1.1.2.</span> <span class="nav-text">@Configuration&amp;@Bean给容器中注册组件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ComponentScan-自动扫描组件-amp-指定扫描规则"><span class="nav-number">1.1.3.</span> <span class="nav-text">@ComponentScan-自动扫描组件&amp;指定扫描规则</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Conditional-按照条件注册bean"><span class="nav-number">1.1.4.</span> <span class="nav-text">@Conditional-按照条件注册bean</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Import-给容器中快速导入一系列组件"><span class="nav-number">1.1.5.</span> <span class="nav-text">@Import-给容器中快速导入一系列组件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Import-使用ImportSelector"><span class="nav-number">1.1.6.</span> <span class="nav-text">@Import-使用ImportSelector</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Import-使用ImportBeanDefinitionRegistrar"><span class="nav-number">1.1.7.</span> <span class="nav-text">@Import-使用ImportBeanDefinitionRegistrar</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#使用FactoryBean注册组件"><span class="nav-number">1.1.8.</span> <span class="nav-text">使用FactoryBean注册组件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#工厂实例化Bean"><span class="nav-number">1.1.9.</span> <span class="nav-text">工厂实例化Bean</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#静态工厂实例化Bean"><span class="nav-number">1.1.10.</span> <span class="nav-text">静态工厂实例化Bean</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#生命周期"><span class="nav-number">1.2.</span> <span class="nav-text">生命周期</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#bean的生命周期"><span class="nav-number">1.2.1.</span> <span class="nav-text">bean的生命周期</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#基于Java-Config的依赖注入"><span class="nav-number">1.3.</span> <span class="nav-text">基于Java Config的依赖注入</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Spring容器的refresh过程分析"><span class="nav-number">1.4.</span> <span class="nav-text">Spring容器的refresh过程分析</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Servlet3-0的注解驱动和可插拔"><span class="nav-number">1.5.</span> <span class="nav-text">Servlet3.0的注解驱动和可插拔</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Servlet3-0的基础"><span class="nav-number">1.5.1.</span> <span class="nav-text">Servlet3.0的基础</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ServletContainerInitializer"><span class="nav-number">1.5.2.</span> <span class="nav-text">ServletContainerInitializer</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#SpringServletContainerInitializer"><span class="nav-number">1.5.3.</span> <span class="nav-text">SpringServletContainerInitializer</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#spring-mvc-支持注解-amp-可定制化"><span class="nav-number">1.5.4.</span> <span class="nav-text">spring mvc 支持注解&amp;可定制化</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Servlet3-0异步请求"><span class="nav-number">1.5.5.</span> <span class="nav-text">Servlet3.0异步请求</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#springmvc-异步请求的两种方式"><span class="nav-number">1.5.6.</span> <span class="nav-text">springmvc-异步请求的两种方式</span></a></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -1145,6 +925,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
