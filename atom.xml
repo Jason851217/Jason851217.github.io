@@ -93,24 +93,6 @@
   </entry>
   
   <entry>
-    <title>test</title>
-    <link href="http://yoursite.com/2018/07/23/test/"/>
-    <id>http://yoursite.com/2018/07/23/test/</id>
-    <published>2018-07-23T02:43:05.000Z</published>
-    <updated>2018-07-23T02:44:32.678Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="test" scheme="http://yoursite.com/categories/test/"/>
-    
-    
-      <category term="test" scheme="http://yoursite.com/tags/test/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Hello World</title>
     <link href="http://yoursite.com/2018/07/09/hello-world/"/>
     <id>http://yoursite.com/2018/07/09/hello-world/</id>
