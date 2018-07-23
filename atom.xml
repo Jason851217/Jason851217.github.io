@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-07-23T03:04:59.429Z</updated>
+  <updated>2018-07-23T03:13:22.195Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Mac修改Launchpad启动器图标行列的数量</title>
+    <link href="http://yoursite.com/2018/07/23/Mac%E4%BF%AE%E6%94%B9Launchpad%E5%90%AF%E5%8A%A8%E5%99%A8%E5%9B%BE%E6%A0%87%E8%A1%8C%E5%88%97%E7%9A%84%E6%95%B0%E9%87%8F/"/>
+    <id>http://yoursite.com/2018/07/23/Mac修改Launchpad启动器图标行列的数量/</id>
+    <published>2018-07-23T03:12:24.000Z</published>
+    <updated>2018-07-23T03:13:22.195Z</updated>
+    
+    <content type="html"><![CDATA[<p>#修改MAC中Launchpad启动器图标行列的数量</p><h2 id="改变行数："><a href="#改变行数：" class="headerlink" title="改变行数："></a>改变行数：</h2><p>  defaults write com.apple.dock springboard-rows -int 7</p><h2 id="改变列数："><a href="#改变列数：" class="headerlink" title="改变列数："></a>改变列数：</h2><p>  defaults write com.apple.dock springboard-columns -int 10</p><h2 id="使改变生效："><a href="#使改变生效：" class="headerlink" title="使改变生效："></a>使改变生效：</h2><p>  killall Dock</p><h2 id="恢复默认："><a href="#恢复默认：" class="headerlink" title="恢复默认："></a>恢复默认：</h2><p>defaults write com.apple.dock springboard-rows Default</p><p>defaults write com.apple.dock springboard-columns Default</p><p>killall Dock</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;#修改MAC中Launchpad启动器图标行列的数量&lt;/p&gt;
+&lt;h2 id=&quot;改变行数：&quot;&gt;&lt;a href=&quot;#改变行数：&quot; class=&quot;headerlink&quot; title=&quot;改变行数：&quot;&gt;&lt;/a&gt;改变行数：&lt;/h2&gt;&lt;p&gt;  defaults write com.app
+      
+    
+    </summary>
+    
+      <category term="mac" scheme="http://yoursite.com/categories/mac/"/>
+    
+    
+      <category term="mac" scheme="http://yoursite.com/tags/mac/"/>
+    
+  </entry>
   
   <entry>
     <title>Spring AOP中的匹配切点表达式</title>
